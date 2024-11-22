@@ -1,10 +1,7 @@
-import AppLayout from "@/components/Layout/AppLayout"
-
+import AppLayout from "@/components/Layout/AppLayout";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  return <div className="text-center text-2xl font-semibold mt-10">Select a friend to chat</div>;
+};
 
-export default AppLayout()(Home)
+export default AppLayout()(Home);

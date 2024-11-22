@@ -7,6 +7,12 @@ export default {
       backgroundImage:{
         'custom-gradient': 'linear-gradient(60deg, #abecd6 0%, #fbed96 100%)',
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
+      boxShadow: {
+        'custom-green': '0px 10px 15px rgba(26, 188, 155, 0.4), 0px 4px 6px rgba(26, 188, 155, 0.2)',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

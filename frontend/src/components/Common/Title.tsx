@@ -7,7 +7,6 @@ const Title = ({
   title?: string;
   description?: string;
 }) => {
-  console.log(title, description);
   return (
     <Helmet>
       <title>{title}</title>
