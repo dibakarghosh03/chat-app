@@ -10,7 +10,7 @@ const TooltipComponent = ({
     onClick: () => void;
   }) => {
     return (
-      <TooltipProvider>
+      <TooltipProvider delayDuration={200} skipDelayDuration={100}>
         <Tooltip>
           <TooltipTrigger>
             <div onClick={onClick}>{icon}</div>
